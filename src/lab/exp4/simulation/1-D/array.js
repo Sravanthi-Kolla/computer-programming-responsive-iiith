@@ -116,6 +116,7 @@ window.view = {
 		image.style.top = top  + 'px'
 		image.style.opacity = '0.7'
         image.className = 'arrowImage'
+        image.setAttribute('src','arrowsmall.png')
 		document.getElementById('sortingDiv').appendChild(image)
 	},
 	showCode: function() {
